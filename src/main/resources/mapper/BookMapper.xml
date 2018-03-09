@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+        "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.loop.dao.BookDao">
+    <select id="findBooksByUserId" parameterType="String"
+            resultType="com.loop.entity.Book">
+        SELECT id,user_id AS userId,type_id AS typeId,name,description,time_created AS timeCreated FROM t_book WHERE user_id=#{userId} ORDER BY time_created desc
+    </select>
+
+
+</mapper>
