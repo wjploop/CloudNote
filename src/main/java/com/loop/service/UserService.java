@@ -1,32 +1,26 @@
 package com.loop.service;
 
+
 import com.loop.entity.User;
-import com.loop.util.NoteResult;
-
-/**
- * author  loop
- * create  2018-01-22 21:03.
- */
-
+import com.loop.service.exception.NameException;
+import com.loop.service.exception.PasswordException;
 
 public interface UserService {
+	/*
+	 * 登录功能方法
+	 * @param name 用户名
+	 * @param password 密码
+	 */
+	User Login(String name, String password)
+				throws NameException,PasswordException;
 
-    NoteResult<User> login(String name, String password);
-
-    /**
-     * 检查用户是否已经存在
-     * user=findByName()
-     * if user!=null
-     * result
-     * 添加用户
-     * createID
-     * 处理password,使用md5加密
-     * user.set()
-     * save(user)
-     * <p>
-     * 设置result
-     */
-
-    NoteResult<Object> register(String username, String nickname, String password);
-
+	User regist(String name, String password, String nick)
+				throws NameException,PasswordException;
 }
+
+
+
+
+
+
+

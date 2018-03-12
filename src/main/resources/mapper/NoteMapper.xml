@@ -1,15 +1,110 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
         "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
-<mapper namespace="com.loop.dao.NoteDao">
-    <select id="findNotesByBookId" parameterType="String"
-            resultType="com.loop.entity.Note">
-        SELECT id,user_id AS userId,book_id AS bookId,state_id AS stateId,type_id AS typeId,title,content,time_created AS timeCreated,time_last_modify AS timeLastModified FROM t_note WHERE book_id=#{bookId}
-    </select>
 
-    <select id="findNoteById" parameterType="String" resultType="com.loop.entity.Note">
-        SELECT id,title,content FROM t_note WHERE id=#{id}
-    </select>
+<mapper namespace="com.loop.dao.NoteDao">
+    <select id="findNotesByNotebookId"
+            parameterType="string"
+            resultType="map">
+		select
+			id,
+			title
+		from
+			t_note
+		where 
+			book_id=#{notebookId}
+	</select>
+
+    <select id="findNoteById"
+            parameterType="string"
+            resultType="com.loop.entity.Note">
+		select
+			id,
+			book_id as notebookId,
+			user_id as userId,
+			status_id as statusId,
+			type_id as typeId,
+			title,
+			body,
+			time_created as timeCreated,
+			time_last_modified as timeLastModified
+		from
+			t_note
+		where
+			id=#{id}
+	</select>
+
+    <!-- NoteMapper.xml -->
+    <update id="updateNote"
+            parameterType="com.loop.entity.Note">
+        update
+        t_note
+        set
+        <if test="notebookId!=null">
+            book_id=#{notebookId},
+        </if>
+        <if test="userId!=null">
+            user_id=#{userId},
+        </if>
+        <if test="statusId!=null">
+            status_id=#{statusId},
+        </if>
+        <if test="typeId!=null">
+            type_id=#{typeId},
+        </if>
+        <if test="title!=null">
+            title=#{title},
+        </if>
+        <if test="body!=null">
+            body=#{body},
+        </if>
+        time_last_modified=#{timeLastModified}
+        where
+        id=#{id}
+    </update>
+
+
+    <insert id="addNote"
+            parameterType="com.loop.entity.Note">
+		insert into t_note
+			(
+			id,
+			book_id,
+			user_id,
+			status_id,
+			type_id,
+			share,
+			title,
+			body,
+			time_created,
+			time_last_modified)
+		values
+			(#{id},#{notebookId},#{userId},
+			#{statusId},#{typeId},#{share},#{title},
+			#{body},#{timeCreated},
+			#{timeLastModified})
+	</insert>
+
+	<delete id="removeNote" parameterType="com.loop.entity.Note">
+		DELETE FROM t_note
+		WHERE id=#{id};
+
+	</delete>
 
 
 </mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

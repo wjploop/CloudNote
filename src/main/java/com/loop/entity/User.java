@@ -1,17 +1,30 @@
 package com.loop.entity;
 
-/**
- * author  loop
- * create  2018-01-22 17:51.
- */
+import java.io.Serializable;
 
+public class User implements Serializable {
 
-public class User {
+    private static final long serialVersionUID = -2944228894066998120L;
     private String id;
     private String name;
     private String password;
     private String token;
     private String nick;
+
+    public User() {
+    }
+
+    public User(String id, String name, String password, String token, String nick) {
+        this.id = id;
+        this.name = name;
+        this.password = password;
+        this.token = token;
+        this.nick = nick;
+    }
+
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
+    }
 
     public String getId() {
         return id;
@@ -64,3 +77,9 @@ public class User {
                 '}';
     }
 }
+
+
+
+
+
+

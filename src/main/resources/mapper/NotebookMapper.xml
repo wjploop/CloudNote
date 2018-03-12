@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+        "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+
+<mapper namespace="com.loop.dao.NotebookDao">
+    <select id="findNotebookByUserId"
+            parameterType="string"
+            resultType="map">
+		select 
+			 id,
+			 name
+		from 
+			t_book
+		where 
+			user_id=#{userId}
+	</select>
+
+    <!-- NotebookMapper.xml -->
+    <select id="findNotebookById"
+            parameterType="string"
+            resultType="com.loop.entity.Notebook">
+		select 
+			id,
+			user_id as userId,
+			type_id as typeId,
+			name,
+			description,
+			time_created as timeCreated
+		from
+			t_book
+		where
+			id=#{id}
+	</select>
+
+    <insert id="addNotebook" parameterType="com.loop.entity.Notebook">
+		INSERT INTO t_book(
+		id,
+	  	user_id,
+	  	type_id,
+	  	name,
+	  	description,
+	  	time_created)
+	  	VALUES (
+	  	#{id},
+	  	#{userId},
+	  	#{typeId},
+	  	#{name},
+	  	#{description},
+	  	#{timeCreated}
+	  	)
+	</insert>
+
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

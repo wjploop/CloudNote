@@ -1,0 +1,2045 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CloudNote:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="957cfb7c-22f4-4516-9d92-f160bf0c7819" name="Default" comment="organize the js fold and add vendor">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loop/controller/BaseController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loop/controller/NotebookController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loop/controller/UserController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loop/dao/NotebookDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loop/entity/Notebook.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loop/service/NotebookService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loop/service/exception/NameException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loop/service/exception/NoteNotFoundException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loop/service/exception/NotebookException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loop/service/exception/NotebookNotFoundException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loop/service/exception/PasswordException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loop/service/exception/UserNotFoundException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loop/service/impl/NotebookServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loop/util/JsonResult.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/NotebookMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/notebook.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/user.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/styles/login_ghost.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/dao/TestNoteDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/dao/TestNotebookDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/dao/TestUserDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/util/TestJsonResult.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/CloudNote_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/CloudNote_war_exploded.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7fee6393-f39c-4b58-8a33-240f432ad854.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/7fee6393-f39c-4b58-8a33-240f432ad854.xml" />
+      <change beforePath="$PROJECT_DIR$/CloudNote.iml" afterPath="$PROJECT_DIR$/CloudNote.iml" />
+      <change beforePath="$PROJECT_DIR$/lib/aopalliance-1.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-logging-1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/spring-aop-4.3.14.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/spring-aspects-4.3.14.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/spring-beans-4.3.14.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/spring-context-4.3.14.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/spring-context-support-4.3.14.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/spring-core-4.3.14.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/spring-expression-4.3.14.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/spring-instrument-4.3.14.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/spring-instrument-tomcat-4.3.14.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/spring-jdbc-4.3.14.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/spring-jms-4.3.14.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/spring-messaging-4.3.14.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/spring-orm-4.3.14.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/spring-oxm-4.3.14.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/spring-test-4.3.14.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/spring-tx-4.3.14.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/log.txt" afterPath="$PROJECT_DIR$/log.txt" />
+      <change beforePath="$PROJECT_DIR$/log.txt.2018-02-03" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/log.txt.2018-02-22" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loop/controller/BookController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loop/controller/NoteController.java" afterPath="$PROJECT_DIR$/src/main/java/com/loop/controller/NoteController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loop/controller/UserLoginController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loop/controller/UserRegisterController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loop/dao/BookDao.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loop/dao/NoteDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/loop/dao/NoteDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loop/dao/UserDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/loop/dao/UserDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loop/entity/Book.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loop/entity/Note.java" afterPath="$PROJECT_DIR$/src/main/java/com/loop/entity/Note.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loop/entity/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/loop/entity/User.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loop/service/BookService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loop/service/NoteService.java" afterPath="$PROJECT_DIR$/src/main/java/com/loop/service/NoteService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loop/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/loop/service/UserService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loop/service/impl/BookServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loop/service/impl/NameException.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loop/service/impl/NoteServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/loop/service/impl/NoteServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loop/service/impl/PasswordException.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loop/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/loop/service/impl/UserServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loop/util/NoteResult.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loop/util/NoteUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/loop/util/NoteUtil.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/BookMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/NoteMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/NoteMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Change_password.html" afterPath="$PROJECT_DIR$/src/main/webapp/Change_password.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/activity.html" afterPath="$PROJECT_DIR$/src/main/webapp/activity.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/activity_detail.html" afterPath="$PROJECT_DIR$/src/main/webapp/activity_detail.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/alert/alert_delete_like.html" afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_delete_like.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/alert/alert_delete_note.html" afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_delete_note.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/alert/alert_delete_notebook.html" afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_delete_notebook.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/alert/alert_delete_rollback.html" afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_delete_rollback.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/alert/alert_error.html" afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_error.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/alert/alert_like.html" afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_like.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/alert/alert_move.html" afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_move.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/alert/alert_note.html" afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_note.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/alert/alert_notebook.html" afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_notebook.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/alert/alert_rename.html" afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_rename.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/alert/alert_replay.html" afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_replay.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/edit.html" afterPath="$PROJECT_DIR$/src/main/webapp/edit.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.html" afterPath="$PROJECT_DIR$/src/main/webapp/login.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/book.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/login.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/emotion/emotion.css" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/emotion/emotion.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/emotion/emotion.js" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/emotion/emotion.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/formula/formula.css" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/formula/formula.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/formula/formula.html" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/formula/formula.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/formula/formula.js" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/formula/formula.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/image/image.css" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/image/image.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/image/image.js" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/image/image.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/link/link.js" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/link/link.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/map/map.html" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/map/map.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/map/map.js" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/map/map.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/video/video.css" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/video/video.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/video/video.js" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/dialogs/video/video.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/ue/lang/en/en.js" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/lang/en/en.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/ue/lang/zh-cn.js" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/lang/zh-cn.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/ue/lang/zh-cn/zh-cn.js" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/lang/zh-cn/zh-cn.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/ue/umeditor.config.js" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/ue/umeditor.config.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/vendor/base64.js" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/base64.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/vendor/bootstrap.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/vendor/cookie_util.js" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/cookie_util.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/vendor/jquery-3.3.1.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/vendor/jquery.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/vendor/jquery.nicescroll.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/jquery.nicescroll.min.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/vendor/js-prototype.js" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/js-prototype.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/vendor/run_prettify.js" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/run_prettify.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/vendor/theme-setup.js" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/theme-setup.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/icon.css" afterPath="$PROJECT_DIR$/src/main/webapp/styles/icon.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/login.css" afterPath="$PROJECT_DIR$/src/main/webapp/styles/login.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/main.css" afterPath="$PROJECT_DIR$/src/main/webapp/styles/main.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/prettify.css" afterPath="$PROJECT_DIR$/src/main/webapp/styles/prettify.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/umeditor.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/styles/umeditor.min.css" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dao/TestBookService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dao/TestDao.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dao/TestUserService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/util/UUID.java" afterPath="" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cloud_note@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cloud_note@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cloud_note@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cloud_note: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="CloudNote" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="NoteDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/loop/dao/NoteDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NoteMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/NoteMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+              <folding>
+                <marker date="1520837725420" expanded="true" signature="316:389" ph="select id, t... t_note" />
+                <marker date="1520837725420" expanded="true" signature="516:755" ph="select id, b... t_note" />
+                <marker date="1520837725420" expanded="true" signature="882:1464" ph="update t_not... t_note" />
+                <marker date="1520837725420" expanded="true" signature="1558:1846" ph="insert into t_note... " />
+                <marker date="1520837725420" expanded="true" signature="1924:1959" ph="DELETE FROM t_note... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NoteServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/loop/service/impl/NoteServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="413">
+              <caret line="132" column="9" lean-forward="false" selection-start-line="132" selection-start-column="9" selection-end-line="132" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NoteService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/loop/service/NoteService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="37" column="38" lean-forward="false" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NotebookServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/loop/service/impl/NotebookServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="notebook.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/notebook.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="55" column="26" lean-forward="true" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NoteController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/loop/controller/NoteController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="545">
+              <caret line="61" column="22" lean-forward="false" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsonResult.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/loop/util/JsonResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestJsonResult.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/util/TestJsonResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>addnote</find>
+      <find>guid</find>
+      <find>wolf</find>
+      <find>-webkit</find>
+      <find>parc</find>
+      <find>timeLastModified</find>
+      <find>input_note</find>
+      <find>cancle</find>
+      <find>update</find>
+      <find>DemoAs</find>
+      <find>BookDao</find>
+      <find>BookService</find>
+      <find>Book</find>
+      <find>var</find>
+      <find>loadNotes</find>
+      <find>move.do</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>cancel</replace>
+      <replace>NotebookDao</replace>
+      <replace>NotebookService</replace>
+      <replace>Notebook</replace>
+      <replace>let</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="ankiloop" />
+        <option value="loop" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/loop/service/impl/BookServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loop/aop/DemoAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/conf/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loop/entity/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loop/util/JsonResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loop/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loop/service/exception/UserNotFoundException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loop/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loop/util/NoteUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loop/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loop/controller/BaseController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loop/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dao/TestDao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/base/TestCaseBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dao/TestUserDao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/base/Base.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loop/entity/Note.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dao/TestNoteDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/scripts/user.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loop/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/alert/alert_delete_like.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/alert/alert_delete_note.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/alert/alert_delete_notebook.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/alert/alert_delete_rollback.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/alert/alert_error.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/alert/alert_like.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/alert/alert_rename.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/alert/alert_replay.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/scripts/note.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/edit.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/alert/alert_note.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/alert/alert_notebook.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loop/dao/NotebookDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loop/entity/Notebook.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dao/TestNotebookDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/NotebookMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loop/service/exception/NotebookException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loop/service/impl/NotebookServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loop/service/NotebookService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loop/controller/NotebookController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/alert/alert_move.html" />
+        <option value="$PROJECT_DIR$/src/test/java/util/TestJsonResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loop/dao/NoteDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/NoteMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loop/service/NoteService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loop/service/impl/NoteServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loop/controller/NoteController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/scripts/notebook.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="printErrorStackTraces" value="true" />
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
+        <option name="workOffline" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="CloudNote Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="-28" />
+    <option name="width" value="1920" />
+    <option name="height" value="1108" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SqlDialectInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CloudNote" type="58d84e3e:PackageViewProjectNode" />
+              <item name="CloudNote" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="CloudNote" type="58d84e3e:PackageViewProjectNode" />
+              <item name="CloudNote" type="616d4139:PackageViewModuleNode" />
+              <item name="conf" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CloudNote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloudNote" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CloudNote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloudNote" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CloudNote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloudNote" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CloudNote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloudNote" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CloudNote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloudNote" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CloudNote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloudNote" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CloudNote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloudNote" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="CloudNote" type="cbb8eebc:String" user="CloudNote" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="CloudNote" type="cbb8eebc:String" user="CloudNote" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.32105264" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="testNO&#9;FILE&#9;file:///home/loop/Desktop/CloudNote/src/test/java/dao/TestNoteDao.java&#10;user&#9;FILE&#9;file:///home/loop/Desktop/CloudNote/src/main/webapp/scripts/user.js&#10;note&#9;FILE&#9;file:///home/loop/Desktop/CloudNote/src/main/webapp/scripts/notebook.js&#10;edit&#9;FILE&#9;file:///home/loop/Desktop/CloudNote/src/main/webapp/edit.html&#10;notebook&#9;FILE&#9;file:///home/loop/Desktop/CloudNote/src/main/webapp/scripts/notebook.js&#10;TestNote&#9;FILE&#9;file:///home/loop/Desktop/CloudNote/src/test/java/dao/TestNoteDao.java&#10;NoteMapp&#9;FILE&#9;file:///home/loop/Desktop/CloudNote/src/main/resources/mapper/NoteMapper.xml&#10;NoteService&#9;FILE&#9;file:///home/loop/Desktop/CloudNote/src/test/java/service/NoteService.java&#10;TestNoteDa&#9;FILE&#9;file:///home/loop/Desktop/CloudNote/src/test/java/dao/TestNoteDao.java&#10;Arith&#9;PSI&#9;JAVA://java.lang.ArithmeticException&#10;Name&#9;FILE&#9;file:///home/loop/Desktop/CloudNote/src/main/java/com/loop/service/exception/NameException.java&#10;NameEx&#9;FILE&#9;file:///home/loop/Desktop/CloudNote/src/main/java/com/loop/service/exception/NameException.java&#10;User&#9;FILE&#9;file:///home/loop/Desktop/CloudNote/src/main/java/com/loop/entity/User.java" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/scripts/vendor" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/scripts/vender" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.loop.util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/resources/mapper" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/loop/service/exception" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/loop/service/impl" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/cloudnote/user/login.do" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="00" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="username" />
+                <option name="value" value="loop" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="qwer" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/cloudnote/user/register.do" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="00" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/cloudnote/user/register.do" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="00" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/cloudnote/user/register.do" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="00" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/cloudnote/user/register.do" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/cloudnote/user/register.do" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/cloudnote/user/register.do" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/cloudnote/login.html" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/cloudnote/user/register.do" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="value" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="cloudnote/user/register.do?value=0" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.tomcat">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="TestJsonResult.see" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CloudNote" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="util" />
+      <option name="MAIN_CLASS_NAME" value="util.TestJsonResult" />
+      <option name="METHOD_NAME" value="see" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestNoteDao.testAddNote" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CloudNote" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="dao" />
+      <option name="MAIN_CLASS_NAME" value="dao.TestNoteDao" />
+      <option name="METHOD_NAME" value="testAddNote" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestNoteDao.testFindNoteById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CloudNote" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="dao" />
+      <option name="MAIN_CLASS_NAME" value="dao.TestNoteDao" />
+      <option name="METHOD_NAME" value="testFindNoteById" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestNoteDao.testFindNotesByNotebookId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CloudNote" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="dao" />
+      <option name="MAIN_CLASS_NAME" value="dao.TestNoteDao" />
+      <option name="METHOD_NAME" value="testFindNotesByNotebookId" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestNotebookDao.testAddNotebook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CloudNote" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="dao" />
+      <option name="MAIN_CLASS_NAME" value="dao.TestNotebookDao" />
+      <option name="METHOD_NAME" value="testAddNotebook" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M26" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/cloudnote/login.html" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="CloudNote:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/cloudnote" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_CloudNote_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="46461" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="CloudNote:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.tomcat" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestNoteDao.testFindNotesByNotebookId" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestNoteDao.testFindNoteById" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestNoteDao.testAddNote" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestNotebookDao.testAddNotebook" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.TestJsonResult.see" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestJsonResult.see" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestNotebookDao.testAddNotebook" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestNoteDao.testAddNote" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestNoteDao.testFindNotesByNotebookId" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestNoteDao.testFindNoteById" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="957cfb7c-22f4-4516-9d92-f160bf0c7819" name="Default" comment="" />
+      <created>1517623275371</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1517623275371</updated>
+      <workItem from="1517623276775" duration="386000" />
+      <workItem from="1517623672198" duration="159000" />
+      <workItem from="1517623837617" duration="134000" />
+      <workItem from="1517623975887" duration="3377000" />
+      <workItem from="1517627408157" duration="20126000" />
+      <workItem from="1517653421520" duration="102000" />
+      <workItem from="1517653526303" duration="185000" />
+      <workItem from="1519231615946" duration="238000" />
+      <workItem from="1519231859156" duration="1324000" />
+      <workItem from="1519252577426" duration="14142000" />
+      <workItem from="1520090922575" duration="2297000" />
+      <workItem from="1520130315561" duration="128000" />
+      <workItem from="1520130452576" duration="1735000" />
+      <workItem from="1520479179981" duration="98000" />
+      <workItem from="1520600539045" duration="195000" />
+      <workItem from="1520572190845" duration="2151000" />
+      <workItem from="1520576307742" duration="1500000" />
+      <workItem from="1520583925315" duration="110000" />
+      <workItem from="1520584239828" duration="11504000" />
+      <workItem from="1520598142777" duration="2775000" />
+      <workItem from="1520600955763" duration="2285000" />
+      <workItem from="1520608848828" duration="5970000" />
+      <workItem from="1520664953627" duration="9499000" />
+      <workItem from="1520676500599" duration="6872000" />
+      <workItem from="1520683699301" duration="10226000" />
+      <workItem from="1520728670786" duration="24716000" />
+      <workItem from="1520758619128" duration="2223000" />
+      <workItem from="1520760913294" duration="2061000" />
+      <workItem from="1520769579624" duration="169000" />
+      <workItem from="1520769780208" duration="6735000" />
+      <workItem from="1520823159332" duration="3939000" />
+      <workItem from="1520827117289" duration="11596000" />
+    </task>
+    <task id="LOCAL-00001" summary="first">
+      <created>1520593282648</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1520593282649</updated>
+    </task>
+    <task id="LOCAL-00002" summary="organize the js fold and add vendor">
+      <created>1520598525796</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1520598525796</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestJsonResult_see - 2018.03.12 at 14h 17m 02s.xml">
+      <configuration name="TestJsonResult.see" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNotebookDao_testAddNotebook - 2018.03.12 at 13h 11m 02s.xml">
+      <configuration name="TestNotebookDao.testAddNotebook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNotebookDao_testAddNotebook - 2018.03.12 at 13h 12m 30s.xml">
+      <configuration name="TestNotebookDao.testAddNotebook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNotebookDao_testAddNotebook - 2018.03.12 at 13h 14m 53s.xml">
+      <configuration name="TestNotebookDao.testAddNotebook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNotebookDao_testAddNotebook - 2018.03.12 at 13h 15m 18s.xml">
+      <configuration name="TestNotebookDao.testAddNotebook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNotebookDao_testAddNotebook - 2018.03.12 at 13h 17m 07s.xml">
+      <configuration name="TestNotebookDao.testAddNotebook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNotebookDao_testAddNotebook - 2018.03.12 at 13h 17m 16s.xml">
+      <configuration name="TestNotebookDao.testAddNotebook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNotebookDao_testAddNotebook - 2018.03.12 at 13h 17m 57s.xml">
+      <configuration name="TestNotebookDao.testAddNotebook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNotebookDao_testAddNotebook - 2018.03.12 at 13h 18m 43s.xml">
+      <configuration name="TestNotebookDao.testAddNotebook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNotebookDao_testAddNotebook - 2018.03.12 at 13h 19m 49s.xml">
+      <configuration name="TestNotebookDao.testAddNotebook" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="148957000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="-28" width="1920" height="1108" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3056943" sideWeight="0.50416666" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19791667" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.196875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3976024" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32767233" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36008447" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43356642" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3136863" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32567433" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23385416" sideWeight="0.47559056" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23385416" sideWeight="0.5244095" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23385416" sideWeight="0.5354645" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="SQL Generator" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901296" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3106893" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="first" />
+    <MESSAGE value="organize the js fold and add vendor" />
+    <option name="LAST_COMMIT_MESSAGE" value="organize the js fold and add vendor" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog>
+          <selected-grouping-rules>
+            <grouping-rule id="XBreakpointGroupingByClassRule" />
+            <grouping-rule id="XBreakpointGroupingByPackageRule" />
+            <grouping-rule id="by-file" />
+          </selected-grouping-rules>
+        </breakpoints-dialog>
+      </breakpoints-dialog>
+      <option name="time" value="16" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520771607582" expanded="true" signature="310:438" ph="select id as... t_user" />
+            <marker date="1520771607582" expanded="true" signature="527:699" ph="insert into t_user... " />
+            <marker date="1520771607582" expanded="true" signature="826:924" ph="select id, n... t_user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/base/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loop/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/mine/jdk/src.zip!/java/sql/Timestamp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="74" column="27" lean-forward="false" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/4df8084a/7fee6393-f39c-4b58-8a33-240f432ad854/cloud_note.t_note_type">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/4df8084a/7fee6393-f39c-4b58-8a33-240f432ad854/cloud_note.t_note_status">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dao/TestNoteDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="29" column="83" lean-forward="false" selection-start-line="29" selection-start-column="83" selection-end-line="29" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#207#208#0" expanded="false" />
+            <element signature="e#285#286#0" expanded="false" />
+            <element signature="e#333#334#0" expanded="false" />
+            <element signature="e#402#403#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="58" column="29" lean-forward="false" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loop/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="33" column="15" lean-forward="false" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/alert/alert_delete_like.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="79" lean-forward="false" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/alert/alert_delete_note.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="79" lean-forward="false" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/alert/alert_delete_notebook.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="79" lean-forward="false" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/alert/alert_delete_rollback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="79" lean-forward="false" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/alert/alert_error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="79" lean-forward="false" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/alert/alert_like.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="79" lean-forward="false" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/alert/alert_replay.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/alert/alert_rename.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="79" lean-forward="false" selection-start-line="16" selection-start-column="79" selection-end-line="16" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/note.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="2" column="946" lean-forward="false" selection-start-line="2" selection-start-column="946" selection-end-line="2" selection-end-column="946" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1358">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/basevalue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/login_ghost.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/vendor/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-576">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-326">
+          <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://src:table:/4df8084a/7fee6393-f39c-4b58-8a33-240f432ad854/cloud_note.t_book">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loop/entity/Notebook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/4df8084a/7fee6393-f39c-4b58-8a33-240f432ad854/cloud_note.t_book">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/reflection/Reflector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="422" column="0" lean-forward="true" selection-start-line="422" selection-start-column="0" selection-end-line="422" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/NotebookMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="45" column="18" lean-forward="true" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+          <folding>
+            <marker date="1520831984988" expanded="true" signature="319:391" ph="select id, n... t_book" />
+            <marker date="1520831984988" expanded="true" signature="558:709" ph="select id, u... " />
+            <marker date="1520831984988" expanded="true" signature="795:807" ph="INSERT INTO t_book... " />
+            <marker date="1520831984988" expanded="true" signature="795:1003" ph="INSERT INTO t_book... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loop/dao/NotebookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dao/TestNotebookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loop/service/exception/NotebookException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding>
+            <element signature="e#181#182#0" expanded="false" />
+            <element signature="e#211#212#0" expanded="false" />
+            <element signature="e#276#277#0" expanded="false" />
+            <element signature="e#313#314#0" expanded="false" />
+            <element signature="e#362#363#0" expanded="false" />
+            <element signature="e#390#391#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loop/service/NotebookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="23" column="52" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/alert/alert_note.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="93" lean-forward="false" selection-start-line="16" selection-start-column="93" selection-end-line="16" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loop/controller/NotebookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="29" column="22" lean-forward="false" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/alert/alert_notebook.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="17" column="100" lean-forward="false" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/alert/alert_move.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="87" lean-forward="false" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loop/entity/Note.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loop/service/impl/NotebookServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loop/util/JsonResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/util/TestJsonResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loop/dao/NoteDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/NoteMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding>
+            <marker date="1520837725420" expanded="true" signature="316:389" ph="select id, t... t_note" />
+            <marker date="1520837725420" expanded="true" signature="516:755" ph="select id, b... t_note" />
+            <marker date="1520837725420" expanded="true" signature="882:1464" ph="update t_not... t_note" />
+            <marker date="1520837725420" expanded="true" signature="1558:1846" ph="insert into t_note... " />
+            <marker date="1520837725420" expanded="true" signature="1924:1959" ph="DELETE FROM t_note... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loop/service/NoteService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="37" column="38" lean-forward="false" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loop/service/impl/NoteServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="132" column="9" lean-forward="false" selection-start-line="132" selection-start-column="9" selection-end-line="132" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/4df8084a/7fee6393-f39c-4b58-8a33-240f432ad854/cloud_note.t_note">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loop/controller/NoteController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="61" column="22" lean-forward="false" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/notebook.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="55" column="26" lean-forward="true" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>CloudNote:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.32105264" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring (CloudNote)|Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.32105264" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.32105264" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.32105264" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|CloudNote</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.32105264" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.aspectj:aspectjweaver:1.5.4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.32105264" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>

@@ -1,23 +1,43 @@
 package com.loop.entity;
 
-import java.util.Date;
+import sun.rmi.runtime.Log;
 
-/**
- * author  loop
- * create  2018-02-03 11:40.
- */
+import java.io.Serializable;
+import java.sql.Timestamp;
 
+public class Note implements Serializable {
+    private static final long serialVersionUID = -8176239102696538864L;
 
-public class Note {
     private String id;
+    private String notebookId;
     private String userId;
-    private String bookId;
+    private String statusId;
     private String typeId;
-    private String stateId;
+    private boolean share;
     private String title;
-    private String content;
-    private Date timeCreated;
-    private Date timeLastModified;
+    private String body;
+    private Timestamp timeCreated;
+    private Timestamp timeLastModified;
+
+    public Note() {
+    }
+
+    public Note(String id, String notebookId, String userId, String statusId, String typeId, boolean share, String title, String body, Timestamp timeCreated, Timestamp timeLastModified) {
+        this.id = id;
+        this.notebookId = notebookId;
+        this.userId = userId;
+        this.statusId = statusId;
+        this.typeId = typeId;
+        this.share = share;
+        this.title = title;
+        this.body = body;
+        this.timeCreated = timeCreated;
+        this.timeLastModified = timeLastModified;
+    }
+
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
+    }
 
     public String getId() {
         return id;
@@ -25,6 +45,14 @@ public class Note {
 
     public void setId(String id) {
         this.id = id;
+    }
+
+    public String getNotebookId() {
+        return notebookId;
+    }
+
+    public void setNotebookId(String notebookId) {
+        this.notebookId = notebookId;
     }
 
     public String getUserId() {
@@ -35,12 +63,12 @@ public class Note {
         this.userId = userId;
     }
 
-    public String getBookId() {
-        return bookId;
+    public String getStatusId() {
+        return statusId;
     }
 
-    public void setBookId(String bookId) {
-        this.bookId = bookId;
+    public void setStatusId(String statusId) {
+        this.statusId = statusId;
     }
 
     public String getTypeId() {
@@ -51,12 +79,12 @@ public class Note {
         this.typeId = typeId;
     }
 
-    public String getStateId() {
-        return stateId;
+    public boolean isShare() {
+        return share;
     }
 
-    public void setStateId(String stateId) {
-        this.stateId = stateId;
+    public void setShare(boolean share) {
+        this.share = share;
     }
 
     public String getTitle() {
@@ -67,27 +95,27 @@ public class Note {
         this.title = title;
     }
 
-    public String getContent() {
-        return content;
+    public String getBody() {
+        return body;
     }
 
-    public void setContent(String content) {
-        this.content = content;
+    public void setBody(String body) {
+        this.body = body;
     }
 
-    public Date getTimeCreated() {
+    public Timestamp getTimeCreated() {
         return timeCreated;
     }
 
-    public void setTimeCreated(Date timeCreated) {
+    public void setTimeCreated(Timestamp timeCreated) {
         this.timeCreated = timeCreated;
     }
 
-    public Date getTimeLastModified() {
+    public Timestamp getTimeLastModified() {
         return timeLastModified;
     }
 
-    public void setTimeLastModified(Date timeLastModified) {
+    public void setTimeLastModified(Timestamp timeLastModified) {
         this.timeLastModified = timeLastModified;
     }
 
@@ -95,12 +123,13 @@ public class Note {
     public String toString() {
         return "Note{" +
                 "id='" + id + '\'' +
+                ", notebookId='" + notebookId + '\'' +
                 ", userId='" + userId + '\'' +
-                ", bookId='" + bookId + '\'' +
+                ", statusId='" + statusId + '\'' +
                 ", typeId='" + typeId + '\'' +
-                ", stateId='" + stateId + '\'' +
+                ", share=" + share +
                 ", title='" + title + '\'' +
-                ", content='" + content + '\'' +
+                ", body='" + body + '\'' +
                 ", timeCreated=" + timeCreated +
                 ", timeLastModified=" + timeLastModified +
                 '}';

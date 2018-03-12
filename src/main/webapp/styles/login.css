@@ -138,12 +138,46 @@ input[type=button]:hover{
 .letter,.password{
 	color:#13A89E;
 	text-indent:4em;
+	position:relative;
 }
 .password{
 	text-indent:2em;
 }
 #sig_in,#back{
 	margin-left:18px;
+}
+.warning{
+	position:absolute;
+	text-indent:0;
+	height:32px;
+	line-height:32px;
+	right:10px;
+	top:0;
+	color:red;
+	font-size:14px;
+	display:none;
+}
+.warning span{
+	animation:emo .5s linear infinite alternate;
+	-webkit-animation:emo .5s linear infinite alternate;
+	-moz-animation:emo .5s linear infinite alternate;
+	-o-animation:emo .5s linear infinite alternate;
+}
+@keyframes emo{
+	from {opacity:0;}
+	to {opacity:1;}
+}
+@-webkit-keyframes emo{
+	from {opacity:0;}
+	to {opacity:1;}
+}
+@-moz-keyframes emo{
+	from {opacity:0;}
+	to {opacity:1;}
+}
+@-o-keyframes emo{
+	from {opacity:0;}
+	to {opacity:1;}
 }
 /*----*/
 .log_in{

@@ -1,0 +1,100 @@
+POST http://localhost:8080/cloudnote/user/login.do?value=0&value=0&value=0&value=0&value=00&value=0&value=0&username=loop&password=qwer
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-10T065408.200.json
+
+###
+
+POST http://localhost:8080/cloudnote/user/register.do?value=0&value=0&value=0&value=0&value=00&value=0&value=0
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-10T064944.200.json
+
+###
+
+POST http://localhost:8080/cloudnote/user/register.do?value=0&value=0&value=0&value=0&value=00&value=0&value=0
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-10T064645.200.json
+
+###
+
+POST http://localhost:8080/cloudnote/user/register.do?value=0&value=0&value=0&value=0&value=00&value=0
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-10T063546.200.json
+
+###
+
+POST http://localhost:8080/cloudnote/user/register.do?value=0&value=0&value=0&value=0&value=00
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-10T063344.200.json
+
+###
+
+POST http://localhost:8080/cloudnote/user/register.do?value=0&value=0&value=0&value=0
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-10T063255.200.json
+
+###
+
+POST http://localhost:8080/cloudnote/user/register.do?value=0&value=0&value=0
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:8080/cloudnote/user/register.do?value=0&value=0
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:8080/cloudnote/user/register.do?value=0&value=0
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-10T062607.200.json
+
+###
+
+POST http://localhost:8080/cloudnote/user/register.do?value=0&value=0
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-10T062324.200.json
+
+###
+
+GET http://localhost:8080/cloudnote/login.html?value=0
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-10T062233.200.html
+
+###
+
+GET http://localhost:8080/cloudnote/user/register.do?value=0
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-10T062149.404.html
+
+###
+
+GET http://localhost:8080/cloudnote/user/register.do?value=0
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-10T062135.404.html
+
+###
+
